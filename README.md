@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/diegopereiracruz/Encontrar-PDF/blob/main/print.jpg?raw=true" alt="Interface da Aplicação"/>
+</p>
+
 # Encontrar PDF
 Esta é uma aplicação em Python que permite ao usuário pesquisar por arquivos PDF em uma pasta selecionada e filtrá-los por uma palavra-chave. O programa exibe os resultados em uma lista na interface gráfica do usuário (GUI).
 
