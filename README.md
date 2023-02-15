@@ -22,6 +22,4 @@ Esta é uma aplicação em Python que permite ao usuário pesquisar por arquivos
 - PyPDF2==1.26.0
 
 ## Autor
-Nome: Diego Pereira
-
 Github: [Diego Pereira](https://github.com/diegopereiracruz/)
