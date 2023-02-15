@@ -1,0 +1,19 @@
+altgraph @ file:///C:/b/abs_f2edualeyv/croot/altgraph_1670426107695/work
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1674482203741/work
+certifi==2022.12.7
+flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
+future @ file:///C:/ci/future_1607568713721/work
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-service==2.4.0
+numpy @ file:///C:/b/abs_datssh7cer/croot/numpy_and_numpy_base_1672336199388/work
+pefile @ file:///C:/b/abs_feg_7trsni/croot/pefile_1670877329726/work
+py2exe @ file:///D:/bld/py2exe_1667681688045/work
+pyinstaller @ file:///C:/b/abs_dbsfiidkbn/croot/pyinstaller_1670881068280/work
+pyinstaller-hooks-contrib @ file:///C:/b/abs_c2hemrb3nh/croot/pyinstaller-hooks-contrib_1670877320457/work
+PyPDF2 @ file:///C:/b/abs_09r7uvihrc/croots/recipe/pypdf2_1662469711628/work
+pywin32==305.1
+pywin32-ctypes @ file:///C:/ci/pywin32-ctypes_1607553594546/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+typing_extensions @ file:///C:/b/abs_89eui86zuq/croot/typing_extensions_1669923792806/work
+wincertstore==0.2
