@@ -3,13 +3,20 @@ from tkinter import filedialog
 from tkinter import END
 import os
 import PyPDF2
+import platform
+import subprocess
+
+PLATFORM_WINDOWS = platform.system() == "Windows"
 
 path = os.getcwd() # Obtém o caminho atual
 print(path)
 
 def open_file(event): # Executa a ação de abrir o arquivo encontrado
     item = listbox.get(listbox.curselection())
-    os.startfile(item)
+    if PLATFORM_WINDOWS:
+        os.startfile(item)
+    else:
+        subprocess.call(["xdg-open", item])
 
 def search_files(path, word):
     result = []
