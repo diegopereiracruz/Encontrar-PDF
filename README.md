@@ -24,12 +24,13 @@ virtualenv venv &&
 source venv/bin/activate
 ```
 
-Instale as dependencias em requirements.txt:
+Instale as dependencias em requirements.txt e o PyPDF2:
 ``` sh
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt &&
+pip3 install PyPDF2
 ```
 
-Instale o tkinter
+Instale o Tkinter:
 ``` sh
 sudo apt install python3-tk
 ```
