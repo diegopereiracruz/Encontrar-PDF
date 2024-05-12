@@ -3,7 +3,8 @@
 </p>
 
 # Encontrar PDF
-Esta é uma aplicação em Python que permite ao usuário pesquisar por arquivos PDF em uma pasta selecionada e filtrá-los por uma palavra-chave. O programa exibe os resultados em uma lista na interface gráfica do usuário (GUI).
+Um buscador de arquivos PDF que realiza uma varredura no conteúdo de cada arquivo e procura pela palavra especificada no campo superior.
+A busca é feita na pasta especificada, selecionada pelo botão "Escolher pasta...".
 
 ## Instalação
 ###### Windows
