@@ -5,21 +5,40 @@
 # Encontrar PDF
 Esta é uma aplicação em Python que permite ao usuário pesquisar por arquivos PDF em uma pasta selecionada e filtrá-los por uma palavra-chave. O programa exibe os resultados em uma lista na interface gráfica do usuário (GUI).
 
-## Como usar
-1. Clone o repositório com git clone https://github.com/seu-usuario/nome-do-repositorio.git
-2. Navegue até o diretório clonado: cd nome-do-repositorio
-3. Certifique-se de ter o Python 3 instalado.
-4. Instale as dependências do projeto com o comando: pip install -r requirements.txt.
-5. Execute o script com o comando: python buscar_pdf.py
-6. Clique no botão "Escolher pasta" para selecionar a pasta onde deseja pesquisar os arquivos PDF.
-7. Insira a palavra-chave na caixa de texto.
-8. Clique no botão "Pesquisar".
-9. Os arquivos PDF que contêm a palavra-chave no conteúdo serão exibidos na lista.
-10. Para abrir um arquivo, selecione-o na lista e dê um duplo clique.
+## Instalação
+###### Windows
+Baixe o executável na página [releases](https://github.com/diegopereiracruz/Encontrar-PDF/releases/tag/Windows).
 
-## Requisitos
-- Python 3.x
-- PyPDF2==1.26.0
+###### Linux
+Clone o repositório:
+```sh
+mkdir ~/git-clones && cd ~/git-clones && 
+git clone https://github.com/diegopereiracruz/Encontrar-PDF.git && 
+cd Encontrar-PDF
+```
+
+Crie um ambiente virtual:
+``` sh
+pip3 install virtualenv &&
+virtualenv venv &&
+source venv/bin/activate
+```
+
+Instale as dependencias em requirements.txt:
+``` sh
+pip3 install -r requirements.txt
+```
+
+Instale o tkinter
+``` sh
+sudo apt install python3-tk
+```
+
+Execute o programa:
+``` sh
+python3 Encontrar-PDF.py
+```
+
 
 ## Autor
-Github: [Diego Pereira](https://github.com/diegopereiracruz/)
+Github: [Diego Pereira Cruz](https://github.com/diegopereiracruz/)
